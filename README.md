@@ -17,11 +17,15 @@ THEN the deposits or expenses added while they were offline are added to their t
  
 ===============================
  
-### Walkthrough Video Link
+### Screenshot of Deployed Application
+
+![](screenshot/budget-tracker-example.png)
 
 ===============================
 
-### Link to GitHub Repository
+### Link to Heroku Application
+
+https://sleepy-springs-60213.herokuapp.com/
 
 ===============================
  
