@@ -1,5 +1,3 @@
-//use module 18 Lesson 4 as advised in assignment details
-
 // create variable to hold db connection
 let db;
 // establish a connection to IndexedDB database called 'budget-tracker' and set it to version 1
@@ -29,8 +27,6 @@ request.onerror = function (event) {
     // log error here
     console.log(event.target.errorCode);
 };
-
-
 
 // This function will be executed if we attempt to submit a new pizza and there's no internet connection
 function saveRecord(record) {
@@ -89,16 +85,7 @@ function uploadTransaction() {
     };
 }
 
-
 // listen for app coming back online
 window.addEventListener('online', uploadTransaction);
-
-// input expense online
-// input deposit online
-//recv notification added expense
-//recv notification added deposit
-// input expense offline
-//input deposit offline
-// connection adds expense and deposits made offline
 
 //When finished, review mod 18 lesson 5 and 18.5.5 for mongoose validation and heroku deployment
