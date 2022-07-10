@@ -87,5 +87,3 @@ function uploadTransaction() {
 
 // listen for app coming back online
 window.addEventListener('online', uploadTransaction);
-
-//When finished, review mod 18 lesson 5 and 18.5.5 for mongoose validation and heroku deployment
